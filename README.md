@@ -1,14 +1,14 @@
 # Engineering-Research-Samsung
 I created this repository to bring together all of my work, including the files and my analyses.
 
-`Engineering-Research-Samsung/  
-│  
-├── README.md  
-│  
-├── Samsung/ -> all files extracted from Samsung ROMs that I have used / files extracted from other Samsung files  
-│  
-├── tools/ -> soon  
-│  
-├── research/ -> my research, with explanation`
-
-
+```text
+Engineering-Research-Samsung/
+│
+├── README.md
+│
+├── Samsung/       # Files extracted from Samsung firmware and other Samsung software
+│
+├── tools/         # Research tools and utilities (coming soon)
+│
+└── research/      # Original research, technical analyses and detailed explanations
+```
