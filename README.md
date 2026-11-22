@@ -8,7 +8,7 @@ Engineering-Research-Samsung/
 │
 ├── Samsung/       # Files extracted from Samsung firmware and other Samsung software
 │
-├── tools/         # Research tools and utilities (coming soon)
+├── tools/         # Research tools and utilities 
 │
 └── research/      # Original research, technical analyses and detailed explanations
 ```
