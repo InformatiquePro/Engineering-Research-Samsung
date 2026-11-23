@@ -3,16 +3,37 @@ I created this repository to bring together all of my work, including the files 
 
 ```text
 Engineering-Research-Samsung/
-│
 ├── README.md
-│
-├── Samsung/       # Files extracted from Samsung firmware and other Samsung software
-│
-├── tools/         # Research tools and utilities 
-│
-└── research/      # Original research, technical analyses and detailed explanations
-```
+├── research
+│   └── ui9_sept26  # Original research, technical analyses and detailed explanations
+│       ├── galaxy_s25plus_em_token_analysis.md
+│       ├── galaxy_s25plus_engmodes_ess_protocol.md
+│       ├── galaxy_s25plus_engrss0002_token_format.md
+│       └── galaxy_s25plus_linuxloader_efi_analysis.md
+├── Samsung # Files extracted from Samsung firmware and other Samsung software
+│   └── ui9_sept26
+│       ├── abl.elf
+│       ├── CA_engmode
+│       │   ├── README.md
+│       │   ├── samsung_root_ca.der
+│       │   ├── samsung_root_modern.der
+│       │   ├── samsung_root_modern.pem
+│       │   ├── samsung_root_type3.der
+│       │   └── samsung_root_type3.pem
+│       ├── engmode.mbn
+│       ├── LINUXLOADER_Section_PE32_image_F536D559-459F-48FA-8BBC-43B554ECAE8D_LinuxLoader_body.efi
+│       └── ODIN_Section_PE32_image_ABA3B456-5469-414A-9F79-47CECBD7C04E_Odin_body.efi
+└── tools    # Research tools and utilities 
+    ├── create_fake-token
+    │   ├── generate_engrss0002_test.py
+    │   └── README.md
+    ├── README.md
+    └── verify_token
+        ├── README.md
+        └── verify_token.py
+```  
 
+If you would like to join the project, or help out, come to Discord: https://discord.gg/QAM5x22WaG
 
 ## Copyright and Disclaimer
 
